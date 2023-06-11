@@ -22,7 +22,9 @@ class Program
                     description = "help you relax by walking you through breathing in and out slowly. Clear your mind and focus on your breathing";
                     
                     Breathing breath = new Breathing(title, description);
+                    breath.displayStartMessage();
                     breath.Breathe();
+                    
                     log.addBreathLog();
                     break;
 
@@ -32,6 +34,7 @@ class Program
                     
                     Reflection reflecting = new Reflection(title, description);
                     reflecting.reflect();
+                    
                     log.addReflectLog();
                     break;
 
@@ -41,6 +44,7 @@ class Program
 
                     Listing listing = new Listing(title, description);
                     listing.List();
+                    
                     log.addListLog();
                     break;
 

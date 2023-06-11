@@ -9,9 +9,7 @@ public class Breathing : Activity
     }
 
     public void Breathe()
-    {
-        base.displayStartMessage();
-        
+    {        
         DateTime futureTime = base.futureTime();
         DateTime currentTime = DateTime.Now;
         
