@@ -8,7 +8,7 @@ class Program
         Address address2 = new Address("47 Burnt Swamp Rd", "Wrentham", "MA", "02093");
         Address address3 = new Address("10667 S 2275 W", "South Jordan", "UT", "84095");
 
-        Lecture lecture = new Lecture("Time Travel Through Ker Black Holes", "An in-depth look into whether time travel is possible using Ker Black Holes", new DateTime(2023, 7, 24, 16, 30, 0), address1, "Dr.Nakabachi", "Particle Physicist");
+        Lecture lecture = new Lecture("Time Travel Through Ker Black Holes", "An in-depth look into whether time travel is possible using Ker Black Holes", new DateTime(2023, 7, 24, 16, 30, 0), address1, "Dr.Nakabachi", "150");
 
         Reception reception = new Reception("Wedding Reception", "Please come to Ken Harvey & Ashleigh Fulwood's wedding Reception", new DateTime(2023, 7, 16, 18, 0, 0), address2, "KenHarvey89@gmail.com");
 
